@@ -36,10 +36,17 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Pankaj Singh" }],
   creator: "Pankaj Singh",
-  metadataBase: new URL("https://pankajsingh.dev"),
+  metadataBase: new URL("https://itspankajsingh.in"),
+  icons: {
+    icon: [
+      { url: "/icon.png", sizes: "any" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+    apple: "/apple-icon.png",
+  },
   openGraph: {
     type: "website",
-    url: "https://pankajsingh.dev",
+    url: "https://itspankajsingh.in",
     title: "Pankaj Singh — Full-Stack Developer & AI Enthusiast",
     description:
       "Building digital experiences that solve real-world problems. Full-stack developer & Data Science student.",
